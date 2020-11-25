@@ -394,7 +394,9 @@ app.get("/messages", (req, res) => {
     getAllMessages(channelName, channels, res);
 });
 
-// listen for requests :)
-const listener = app.listen(process.env.PORT, () => {
-    console.log("Your app is listening on port " + listener.address().port);
-});
+app.listen(process.env.PORT || 3000)
+
+// // listen for requests :)
+// const listener = app.listen(process.env.PORT, () => {
+//     console.log("Your app is listening on port " + listener.address().port);
+// });

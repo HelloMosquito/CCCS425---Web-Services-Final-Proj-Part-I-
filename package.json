@@ -1,0 +1,26 @@
+{
+  "name": "Final-Project-I",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service.js",
+  "scripts": {
+    "start": "node service.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloMosquito/CCCS425---Web-Services-Final-Proj-Part-I-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelloMosquito/CCCS425---Web-Services-Final-Proj-Part-I-/issues"
+  },
+  "homepage": "https://github.com/HelloMosquito/CCCS425---Web-Services-Final-Proj-Part-I-#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
